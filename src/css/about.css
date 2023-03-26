@@ -1,0 +1,32 @@
+.groupBtn2:hover .groupArr2{
+    padding-left:10px;
+   transition:0.3s;
+}
+.groupBtn2{
+    width:185px;
+   
+    
+}
+.line2{
+line-height:60px;
+}
+.groupBtn2:hover .groupLine2{
+    width:25px;
+}
+.groupLine2{
+width:15px;
+height:2px;
+margin-top:0px;
+}
+
+@media only screen and (max-width:600px) {
+    .lineH2{
+line-height:45px;
+}
+
+}
+
+.box{
+    background: rgb(3,108,95);
+    background: linear-gradient(180deg, rgba(3,108,95,1) 22%, rgba(3,124,110,1) 36%, rgba(40,169,158,1) 80%, rgba(179,224,220,1) 100%);
+}

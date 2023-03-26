@@ -1,0 +1,35 @@
+.form{
+height:30rem;
+width:22rem;
+}
+
+
+.box{
+    background: rgb(3,108,95);
+    background: linear-gradient(180deg, rgba(3,108,95,1) 22%, rgba(3,124,110,1) 36%, rgba(40,169,158,1) 80%, rgba(179,224,220,1) 100%);
+}
+.success{
+    display:flex;
+    opacity:0;
+    transition:1.5s;
+    animation:success 5s linear;
+    }
+    @keyframes success {
+      0%{
+    display:flex;
+    opacity:0.5;
+      }
+      25%{
+    display:flex;
+    opacity:0.7;
+      }
+      75%{
+    opacity:1;
+    display:flex;
+      }
+      100%{
+    opacity:0;
+    
+        display:none;
+      }
+    }

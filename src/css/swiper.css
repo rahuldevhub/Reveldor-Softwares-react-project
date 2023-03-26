@@ -1,0 +1,17 @@
+.swiper-pagination-bullet-active {
+    background-color: teal !important;
+    border: solid 1px rgb(3, 159, 202) !important;
+}
+.swiper-pagination-bullet{
+    background:rgb(3, 159, 202) !important;
+    width:10px !important;
+    height:10px !important;
+    margin-right:8px  !important;
+}
+@media only screen and (max-width:600px) {
+    .swiper-pagination-bullet{
+        width:8px !important;
+        height:8px !important;
+        margin-right:5px  !important;
+    }
+}
